@@ -8,8 +8,8 @@ function FeatureView() {
 	var gameButton = Titanium.UI.createButton({
 		backgroundColor : '#FFFF00',
 		title: 'Click Me to Start',
-		width : 250,
-		height : 250
+		width : 150,
+		height : 150
 	});
 
 	self.add(gameButton);

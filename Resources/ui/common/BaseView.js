@@ -10,7 +10,7 @@ function BaseView() {
 	var featureButton = Titanium.UI.createButton({
 		backgroundColor : '#FF0000',
 		title: 'Click Me',
-		width : 50,
+		width : 250,
 		height : 50
 	});
 

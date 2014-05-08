@@ -1,5 +1,7 @@
 function GameView() {
-	var self = Ti.UI.createView({
+	var self = Ti.UI.createWindow({
+	//	fullscreen : true,
+	//	navBarHidden : true,
 		backgroundColor : '#999999'
 	});
 
@@ -33,6 +35,9 @@ function GameView() {
 		sliderView.filledColor = 'red';
 		sliderView.unfilledColor = 'green';
 	}
+
+
+	self.open();
 
 	return self;
 }

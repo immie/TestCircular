@@ -2,11 +2,12 @@
 function ApplicationWindow() {
 	//load component dependencies
 	var BaseView = require('ui/common/BaseView');
+	//var BaseView = require('ui/common/Game');
 
 	//create component instance
 	var self = Ti.UI.createWindow({
 		backgroundColor : '#ffffff',
-	//	fullscreen : true,
+		fullscreen : true,
 		navBarHidden : true,
 		exitOnClose : true
 	});

@@ -5,9 +5,6 @@ function ApplicationWindow() {
 	var BaseView = require('ui/common/BaseView');
 	//var BaseView = require('ui/common/Game');
 
-	var BaseView = require('ui/common/Game');
-
-
 	//create component instance
 	var self = Ti.UI.createWindow({
 		backgroundColor : '#ffffff',

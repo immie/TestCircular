@@ -1,8 +1,12 @@
 ///Application Window Component Constructor
 function ApplicationWindow() {
 	//load component dependencies
+<<<<<<< HEAD
 	var BaseView = require('ui/common/BaseView');
 	//var BaseView = require('ui/common/Game');
+=======
+	var BaseView = require('ui/common/Game');
+>>>>>>> cc41308f52012535fc086ef409692acaf26f60c6
 
 	//create component instance
 	var self = Ti.UI.createWindow({

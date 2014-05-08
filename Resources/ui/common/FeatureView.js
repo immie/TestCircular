@@ -18,7 +18,7 @@ function FeatureView() {
 
 	function gameView() {
 		var gameView = new Game();
-		self.add(gameView);
+		gameView.open();
 	}
 
 
